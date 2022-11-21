@@ -1,0 +1,676 @@
+@media screen and (max-width: 1350px) {
+    .login-form {
+        padding: 120px 370px 10px 370px;
+    }
+}
+
+
+@media screen and (max-width: 1305px) {
+    .banner-desc .motto {
+        font-size: 45px;
+    }
+
+    .image {
+        width: 250px;
+        height: 356px;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .banner-desc {
+        width: 50%;
+    }
+
+    .banner-img {
+        width: 50%;
+    }
+    
+    .banner-desc .motto {
+        font-size: 43px;
+    }
+
+    .card-icon {
+        font-size: 30px;
+    }
+
+    .card-desc {
+        font-size: 20px;
+    }
+
+    .gallery .right .gallery-image {
+        width: 250px;
+        height: 352px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-img {
+        justify-content: flex-end;
+    }
+
+    .about-us .right {
+        margin-top: -20px;
+    }
+
+    .curriculum .left {
+        width: 40%;
+    }
+
+    .curriculum .right {
+        width: 50%;
+    }
+
+    .right img {
+        width: 440px;
+    }
+
+    .login-form {
+        padding: 120px 340px 10px 340px;
+    }
+}
+
+@media screen and (max-width: 1164px) {
+    nav {
+        width: 80%;
+    }
+
+    .right img {
+        width: 420px;
+    }
+
+    .curriculum .left {
+        gap: 30px;
+    }
+
+    .card {
+        display: flex;
+    }
+
+    .card-icon {
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+    }
+
+    .card-desc {
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .gallery .right {
+        display: flex;
+        align-items: center;
+    }
+
+    .gallery .right .gallery-image {
+        width: 230px;
+        height: 332px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .login-form {
+        padding: 120px 310px 10px 310px;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    header {
+        padding: 17px 70px;
+    }
+
+    nav {
+        width: 82%;
+    }
+
+    nav li {
+        padding: 0 0 0 20px;
+    }
+
+    .banner-desc .motto {
+        font-size: 40px;
+    }
+
+    section {
+        padding: 140px 70px;
+    }
+
+    .about-us,
+    .curriculum,
+    .gallery,
+    .mission {
+        padding: 40px 70px;
+    }
+
+    .about-us .right {
+        margin-top: 0px;
+    }
+
+    .mission {
+        margin: 70px;
+        padding: 40px;
+    }
+
+    .mission-card {
+        padding-right: 30px;
+    }
+
+    footer {
+        padding: 10px 70px;
+    }
+
+    .right img {
+        width: 400px;
+    }
+
+    .gallery .right .gallery-image {
+        width: 210px;
+        height: 312px;
+    }
+
+    .gallery .right .gallery-image:first-child {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .login-form {
+        padding: 120px 250px 10px 250px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    nav { 
+        top: 69px;
+        position: fixed;
+        right: -100%;
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: left;
+        align-items: flex-start;
+        transition: right 0.5s ease-out;
+    }
+
+    nav.open {
+        top: 69px;
+        bottom: 0px;
+        right: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: #2f2f2f;
+        color: #FFFFFF;
+    }
+
+    nav ul {
+        margin-top: -20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0 15px 5px;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    nav ul li a i{
+        color: #FFFFFF;
+        font-size: 13px;
+        margin-right: 8px;
+    }
+
+    .bars-menu {
+        display: block;
+        color: #FFFFFF;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: #FFFFFF;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .bars-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .bars-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .bars-menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .get-started {
+        width: 100%;
+        margin: 3px 0 30px 0;
+        padding: 15px 0;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(66, 73, 73, 0.5);
+    }
+
+    .login {
+        padding-right: 20px;
+    }
+
+    .login,
+    .login a {
+        font-size: 15px;
+    }
+
+    .login a {
+        padding-right: 5px;
+    }
+
+    .register {
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        padding: 3px 20px;
+    }
+
+    .register a {
+        color: #2F2F2F;
+        font-size: 15px;
+    }
+
+    .right img {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 911px) {
+    .banner-desc .motto {
+        font-size: 38px;
+    }
+
+    .right img {
+        width: 360px;
+    }
+
+    .gallery .right .gallery-image {
+        width: 190px;
+        height: 292px;
+    }
+
+    .gallery .right .gallery-image:first-child {
+        margin-right: 10px;
+    }
+
+    .about-us .left p, .gallery .left p {
+        font-size: 15px;
+    }
+
+    .gallery .left {
+        width: 45%;
+    }
+
+    .gallery .right {
+        width: 50%;
+    }
+    
+    .about-us .left h1,
+    .curriculum .right h1,
+    .gallery .left h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+   
+@media screen and (max-width: 900px) {
+    .login-form {
+        padding: 120px 210px 10px 210px;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .banner-desc .motto {
+        font-size: 36px;
+    }
+
+    .right img {
+        width: 340px;
+    }
+
+    .gallery .right .gallery-image {
+        width: 170px;
+        height: 272px;
+    }
+
+    .gallery .right .gallery-image:first-child {
+        margin-right: 10px;
+    }
+
+    .about-us .left p, .gallery .left p {
+        font-size: 14px;
+    }
+
+    .about-us .left h1,
+    .curriculum .right h1,
+    .gallery .left h1 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .mission-card i {
+        font-size: 30px;
+    }
+
+    .mission-card h2 {
+        font-size: 20px;
+    }
+
+    .mission-desc {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .login-form {
+        padding: 120px 170px 10px 170px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .banner-desc .motto {
+        font-size: 34px;
+    }
+
+    .image {
+        width: 220px;
+        height: 326px;
+    }
+
+    .curriculum .right p, .curriculum .right .note {
+        font-size: 15px;
+    }
+
+    .banner-desc .desc {
+        font-size: 17px;
+    }
+
+    .banner-desc button {
+        font-size: 17px;
+    }
+
+    .right img {
+        width: 320px;
+    }
+
+    .gallery .right .gallery-image {
+        width: 150px;
+        height: 252px;
+    }
+
+    .gallery .right .gallery-image:first-child {
+        margin-right: 10px;
+    }
+
+    .about-us .left p, .gallery .left p {
+        font-size: 13px;
+    }
+
+    .about-us .left h1,
+    .curriculum .right h1,
+    .gallery .left h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    nav { 
+        width: 40%;
+    }
+
+    .banner-desc .motto {
+        font-size: 32px;
+    }
+
+    .right img {
+        width: 280px;
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-us .left {
+        width: 100%;
+    }
+
+    .curriculum {
+        margin-top: 0;
+    }
+
+    .about-us .right {
+        display: none;
+    }
+
+    .gallery .right .gallery-image {
+        width: 430px;
+    }
+
+    .gallery .right .gallery-image:first-child {
+        margin-right: 10px;
+    }
+
+    .about-us .left p, .gallery .left p {
+        font-size: 15px;
+    }
+
+    .about-us .left h1,
+    .curriculum .right h1,
+    .gallery .left h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery .left {
+        width: 100%;
+    }
+
+    .gallery .right {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .password input {
+        width: 85%;
+    }
+
+    .password button {
+        width: 15%;
+    }
+
+}
+
+@media screen and (max-width: 710px) {
+    .login-form {
+        padding: 120px 130px 10px 130px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        padding: 17px 50px;
+    }
+
+    section {
+        padding: 140px 50px;
+    }
+
+    .about-us,
+    .curriculum,
+    .gallery,
+    .mission {
+        padding: 40px 50px;
+    }
+
+    .mission {
+        margin: 70px 50px 70px 50px;
+        padding: 30px;
+    }
+
+    footer {
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+    }
+
+    .banner-desc {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .banner-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 120px 0 50px 0;
+    }
+
+    .banner-desc .motto {
+        font-size: 30px;
+    }
+
+    header {
+        padding: 17px 40px;
+    }
+
+    section {
+        padding: 140px 40px;
+    }
+
+    .about-us,
+    .curriculum,
+    .gallery,
+    .mission {
+        padding: 40px 40px;
+    }
+
+    .mission {
+        margin: 70px 40px 70px 40px;
+        padding: 30px;
+    }
+
+    footer {
+        padding: 10px 40px;
+    }
+
+    .banner-desc .motto {
+        font-size: 30px;
+    }
+
+    .right img {
+        width: 260px;
+    }
+
+    .gallery .right .gallery-image {
+        width: 410px;
+        height: 232px;
+    }
+
+    .gallery .right .gallery-image:first-child {
+        margin-right: 10px;
+    }
+
+    .about-us .left p, .gallery .left p {
+        font-size: 14px;
+    }
+
+    .about-us .left h1,
+    .curriculum .right h1,
+    .gallery .left h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .login-form {
+        padding: 120px 100px 10px 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .curriculum {
+        flex-direction: column-reverse;
+    }
+
+    .curriculum .left {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .curriculum .right {
+        width: 100%;
+    }
+
+    .mission {
+        flex-direction: column;
+    }
+
+    .mission .mission-card {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+    
+}
+
+@media screen and (max-width: 530px) {
+    .login-form {
+        padding: 120px 60px 10px 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        padding: 120px 40px 10px 40px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .image {
+        width: 200px;
+        height: 306px;
+    }
+
+    .banner-desc .motto {
+        margin-bottom: 10px;
+    }
+
+    .banner-desc .desc {
+        margin-bottom: 10px;
+    }
+
+    .banner-img {
+        margin: 140px 0 50px 0;
+    }
+
+    section {
+        height: 750px;
+    }
+}

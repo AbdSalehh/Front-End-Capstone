@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+header {
+    position: fixed;
+    background-color: #2F2F2F;
+    width: 100%;
+    padding: 17px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.1s ease-out;
+    z-index: 1;
+}
+
+.bars-menu {
+    font-size: 24px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
+.logo-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo-name i {
+    font-size: 24px;
+    padding-right: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-name a {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+nav {
+    color: #FFFFFF;
+    display: flex;
+    top: 0;
+    width: 75%;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline;
+    padding: 0 15px;
+    list-style-type: none;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+nav li a {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+nav ul li a i {
+    font-size: 0;
+    color: transparent;
+}
+
+.get-started {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    padding-right: 30px;
+}
+
+.login, .login a {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.login a {
+    padding-right: 5px;
+}
+
+.register {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+.register a {
+    color: #2F2F2F;
+    font-size: 17px;
+}
+
+/* login */
+
+form .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    padding: 120px 430px 70px 430px;
+}
+
+.login-form h1 {
+    margin-bottom: 10px;
+    color: #2F2F2F;
+}
+
+.login-form .container p {
+    margin: 7px 0 13px 0;
+    font-size: 13px;
+    color: #707070;
+    display: flex;
+    justify-content: left;
+}
+
+.login-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2F2F2F;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #2F2F2F;
+    font-size: 17px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+input[type=text], 
+input[type=email] {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.password input[type=text] {
+    margin-bottom: 0;
+}
+
+input[type=password] {
+    border: none;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    outline: 3px solid rgb(66, 179, 255, 0.4);
+}
+
+.password {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.password input {
+    width: 90%;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.forgot-password label {
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.forgot-password a {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.login-form button {
+    margin-top: 10px;
+    padding: 13px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+}
+
+.password button {
+    border: none;
+    background: transparent;
+    width: 10%;
+    font-size: 18px;
+    margin-top: 0;
+    color: #2F2F2F;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form button[type=submit] {
+    font-family: 'Poppins',
+        sans-serif;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.login-form button[type=submit]:hover {
+    background-color: #1f1f1f;
+}
+
+.login-form button[type=button] {
+    background-color: #FFFFFF;
+    border: 1px solid #bbbbbb;
+    color: #2F2F2F;
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form button[type=button]:hover {
+    background-color: #f2f2f2;
+}
+
+.login-form button span {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.login-form p {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #2F2F2F;
+}
+
+.login-form p a {
+    font-weight: 600;
+    color: #2F2F2F;
+}
+
+/* main */
+main {
+    min-height: 100vh;
+    transition: all 0.1s ease-out;
+}
+
+section {
+    background: #2F2F2F;
+    height: 582px;
+    width: 100%;
+    padding: 140px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-desc {
+    color: #FFFFFF;
+    width: 40%;
+}
+
+.banner-desc .motto {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner-desc .desc,
+.banner-desc button {
+    font-size: 20px;
+}
+
+.banner-desc button {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 6px 30px;
+    border: none;
+    color: #2F2F2F;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.banner-desc button .started {
+    padding-right: 7px;
+}
+
+.banner-desc button .button-icon {
+    font-size: 17px;
+    background: #F4F4F4;
+    border-radius: 50%;
+}
+
+.banner-desc button .button-icon i {
+    padding: 8px;
+}
+
+.banner-img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 280px;
+    height: 386px;
+    rotate: -10deg;
+    border: 3px solid #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gradient {
+    background: linear-gradient(-3deg, #FFFFFF 50%, #2F2F2F 50%);
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    width: 100%;
+}
+
+/* about us */
+
+.about-us,
+.curriculum,
+.gallery,
+.mission {
+    padding: 40px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .left {
+    width: 45%;
+    text-align: justify;
+}
+
+.about-us .left h2,
+.gallery .left h2 {
+    color: #2F2F2F;
+    font-weight: 600;
+}
+
+.about-us .left h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+
+.about-us .left p {
+    margin-top: 10px;
+    color: #2F2F2F;
+}
+
+.about-us .left p a {
+    color: #2F2F2F;
+    font-weight: 600;
+}
+
+.about-us .right {
+    width: 55%;
+    margin-top: -70px;
+}
+
+.right img {
+    float: right;
+    width: 470px;
+}
+
+/* curriculum */
+
+.curriculum {
+    margin-top: 80px;
+}
+
+.curriculum .left {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+}
+
+.card {
+    background-color: #FAFAFA;
+    padding: 20px 20px 25px 20px;
+    border-radius: 5px;
+    color: #2F2F2F;
+}
+
+.card-icon {
+    display: flex;
+    font-size: 35px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+}
+
+.first {
+    color: #502be4;
+    background: rgba(64, 16, 255, 0.1);
+}
+
+.second {
+    color: #FF0D1B;
+    background: rgba(255, 13, 27, 0.1);
+}
+
+.third {
+    color: #FF8310;
+    background: rgba(255, 131, 16, 0.1);
+}
+
+.fourth {
+    color: #FFC700;
+    background: rgba(255, 199, 0, 0.1);
+}
+
+.card-icon i {
+    padding: 10px;
+}
+
+.card-desc {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.curriculum .left{
+    width: 50%;
+}
+
+.curriculum .right {
+    width: 40%;
+    text-align: justify;
+    color: #2F2F2F;
+}
+
+.curriculum .right h2,
+.curriculum .right h1 {
+    margin-bottom: 10px;
+}
+
+.curriculum .right .note,
+.curriculum .right p {
+    margin-bottom: 30px;
+}
+
+.curriculum .right .note {
+    border-left: 3px solid #2F2F2F;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.curriculum .right h2 {
+    color: #2F2F2F;
+}
+
+.curriculum .right h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.curriculum .right button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 13px 35px;
+    font-size: 18px;
+    font-weight : 500;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    background-color: #F8F9F9;
+}
+
+.gallery .left {
+    width: 40%;
+}
+
+.gallery .right {
+    width: 60%;
+}
+
+.gallery .left h1,
+.gallery .left p {
+    color: #2F2F2F;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.gallery .right {
+    display: flex;
+    justify-content: right;
+}
+
+.gallery .right .gallery-image {
+    width: 280px;
+    height: 382px;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.gallery .right .gallery-image:first-child {
+    margin-right: 40px;
+}
+
+.gallery .right .gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mission {
+    border: 2px solid #E5E5E5;
+    margin: 90px;
+    border-radius: 5px;
+}
+
+.mission-card {
+    width: 34%;
+    padding-right: 50px;
+}
+
+.mission-card:nth-child(2) {
+    width: 38%;
+}
+
+.mission-card:nth-child(3) {
+    width: 28%;
+}
+
+.mission-card:last-child {
+    padding-right: 0px;
+}
+
+.mission-card i,
+.mission-card h2 {
+    margin-bottom: 15px;
+    color: #2F2F2F;
+}
+
+.mission-card i {
+    font-size: 40px;
+}
+
+.mission-card:nth-child(1) i {
+    color: #FE5B00;
+}
+
+.mission-card:nth-child(2) i {
+    color: #FFC700;
+}
+
+.mission-card:nth-child(3) i {
+    color: #957CF9;
+}
+
+.mission-desc {
+    text-align: justify;
+}
+
+.mission-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+/* footer */
+
+footer {
+    margin-top: auto;
+    background-color: #F4F4F4;
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.1s ease-out;
+}
