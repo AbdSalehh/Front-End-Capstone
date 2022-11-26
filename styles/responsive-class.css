@@ -1,0 +1,96 @@
+@media screen and (max-width: 1350px) {
+  .course-detail-list {
+    padding: 30px 70px;
+  }
+  .trust-list {
+    padding: 30px 70px;
+    margin: 40px auto;
+  }
+  .course-detail-item p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7; /* number of lines to show */
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .course-detail-list {
+    padding: 20px 40px;
+    grid-column-gap: 10px;
+  }
+  .trust-list {
+    padding: 20px 40px;
+    margin: 40px auto;
+  }
+  .course-detail-item p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* number of lines to show */
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .course-detail-list {
+    padding: 20px 40px;
+    grid-column-gap: 10px;
+  }
+  .trust-list {
+    padding: 20px 40px;
+    margin: 40px auto;
+  }
+  .course-detail-item p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; /* number of lines to show */
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .course-detail-list {
+    padding: 20px 40px;
+    grid-column-gap: 10px;
+  }
+  .trust-list {
+    padding: 20px 30px;
+  }
+  .course-detail-item p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* number of lines to show */
+  }
+  .testi-item p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* number of lines to show */
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .course-detail-list {
+    padding: 20px 40px;
+    grid-column-gap: 10px;
+  }
+  .trust-list {
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .course-detail-list {
+    padding: 20px 40px;
+    grid-column-gap: 10px;
+  }
+  .trust-list {
+    padding: 20px 30px;
+  }
+}
