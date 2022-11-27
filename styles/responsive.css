@@ -70,8 +70,8 @@
 }
 
 @media screen and (max-width: 1164px) {
-    nav {
-        width: 80%;
+    .before-login {
+        width: 85%;
     }
 
     .right img {
@@ -112,15 +112,19 @@
     .login-form {
         padding: 120px 310px 10px 310px;
     }
+
+    nav ul {
+        width: 60%;
+    }
+
+    .after-login nav ul {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1068px) {
     header {
         padding: 17px 70px;
-    }
-
-    nav {
-        width: 82%;
     }
 
     nav li {
@@ -133,6 +137,10 @@
 
     section {
         padding: 140px 70px;
+    }
+
+    .dashboard-container {
+        padding: 100px 70px;
     }
 
     .about-us,
@@ -180,6 +188,10 @@
 }
 
 @media screen and (max-width: 930px) {
+    .before-login {
+        width: 5%;
+    }
+
     nav { 
         top: 69px;
         position: fixed;
@@ -188,7 +200,7 @@
         flex-direction: column-reverse;
         justify-content: left;
         align-items: flex-start;
-        transition: right 0.5s ease-out;
+        transition: all 0.5s ease-out;
     }
 
     nav.open {
@@ -201,8 +213,25 @@
         color: #FFFFFF;
     }
 
+    .before-login nav { 
+        justify-content: flex-end;
+    }
+
+    .after-login nav ul {
+        margin-top: 5px;
+    }
+
+    .after-login {
+        justify-content: flex-end;
+    }
+
     nav ul {
-        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .selectMenu ul {
+        right: 115px;
     }
 
     nav ul li {
@@ -250,11 +279,22 @@
 
     .get-started {
         width: 100%;
-        margin: 3px 0 30px 0;
         padding: 15px 0;
         justify-content: center;
         align-items: center;
         background-color: rgb(66, 73, 73, 0.5);
+    }
+
+    .navProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navProfile .get-started {
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
     }
 
     .login {
@@ -509,6 +549,10 @@
         padding: 17px 50px;
     }
 
+    .dashboard-container {
+        padding: 100px 50px;
+    }
+
     section {
         padding: 140px 50px;
     }
@@ -559,6 +603,10 @@
         padding: 17px 40px;
     }
 
+    .dashboard-container {
+        padding: 100px 40px;
+    }
+
     section {
         padding: 140px 40px;
     }
@@ -606,6 +654,10 @@
         font-size: 28px;
         font-weight: 600;
     }
+
+    .after-login {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 610px) {
@@ -638,11 +690,32 @@
         padding-right: 0;
     }
     
+    .classList {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .classCardTop {
+        flex-direction: column;
+    }
+
+    .classImage {
+        width: 100%;
+        height: 200px;
+    }
+
+    .classDetail {
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 @media screen and (max-width: 530px) {
     .login-form {
         padding: 120px 60px 10px 60px;
+    }
+
+    .after-login {
+        width: 20%;
     }
 }
 

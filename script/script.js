@@ -1,30 +1,33 @@
 const barsMenu = document.querySelector('.bars-menu');
 const nav = document.querySelector('.nav');
-const main = document.querySelector('main');
+const body = document.querySelector('body');
 const password = document.querySelector('#pw');
 const confirmPw = document.querySelector('#confirmPw');
 const showPw = document.querySelector('.password>button');
 const showConfirmPw = document.querySelector('.password>#confirm');
+const profile = document.querySelector('.profile');
+const menu = document.querySelector('.selectMenu');
 
 barsMenu.addEventListener('click', (event) => {
     event.stopPropagation();
-    event.preventDefault();
 
     nav.classList.toggle('open');
     barsMenu.classList.toggle('active');
+    menu.classList.remove('active');
+    
+    if (!menu.classList.contains('active')) {
+        document.querySelector('.profile>i:first-child').style.transform = 'rotate(0deg)';
+    }
 });
 
-main.addEventListener('click', (event) => {
+body.addEventListener('click', (event) => {
     event.stopPropagation();
-    event.preventDefault();
 
     nav.classList.remove('open');
     barsMenu.classList.remove('active');
 });
 
-// password
-
-showPw.addEventListener('click', (event) => {
+showPw.addEventListener('click', () => {
     if (pw.type === "password") {
         pw.type = "text";
     } else {

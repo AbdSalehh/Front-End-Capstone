@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+            <i class="fa fa-book-open-reader"></i>
+            <a href="">AJARI</a>
+        </div>
+        <div class="after-login">
+            <nav class="nav">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
+                    <li><a href=""><i class="fa-solid fa-school"></i> Classes</a></li>
+                    <li><a href=""><i class="fa-solid fa-address-card"></i> About us</a></li>
+                </ul>
+            </nav>
+            <div class="navProfile">
+                <div class="get-started">
+                    <div class="profile">
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
+                    <div class="selectMenu">
+                        <ul>
+                            <li class="option"><a href=""><i class="fa-solid fa-chalkboard-user"></i> Dashboard</a></li>
+                            <li class="option"><a href=""><i class="fa-solid fa-sign-out"></i> Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bars-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="dashboard-container">
+            <div class="widget">
+                <h1>Hello, Nadya Ayunda!</h1>
+                <p>Selamat belajar, kami menyediakan beberapa kelas dan materi pembelajaran yang bisa anda pilih dibawah
+                    ini.</p>
+                <button>
+                    Mulai Belajar
+                    <div class="widget-icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </button>
+            </div>
+            <div class="classCard">
+                <div class="class">
+                    <input type="radio" name="genre" id="kelas1" checked>
+                    <label for="kelas1">Kelas 1</label>
+
+                    <input type="radio" name="genre" id="kelas2">
+                    <label for="kelas2">Kelas 2</label>
+
+                    <input type="radio" name="genre" id="kelas3">
+                    <label for="kelas3">Kelas 3</label>
+
+                    <input type="radio" name="genre" id="kelas4">
+                    <label for="kelas4">Kelas 4</label>
+
+                    <input type="radio" name="genre" id="kelas5">
+                    <label for="kelas5">Kelas 5</label>
+
+                    <input type="radio" name="genre" id="kelas6">
+                    <label for="kelas6">Kelas 6</label>
+                </div>
+            </div>
+            <div class="classList">
+                <div class="classListCard">
+                    <div class="classCardTop">
+                        <div class="classImage">
+                            <img src="assets/images/kids-02.jpg" alt="">
+                        </div>
+                        <div class="classDetail">
+                            <a href="">Belajar Membaca</a>
+                            <div class="Category">
+                                <div class="category-name">Kategori :</div>
+                                <div class="categoryList">
+                                    <div class="categoryItem">Membaca</div>
+                                    <div class="categoryItem">Memahami</div>
+                                </div>
+                            </div>
+                            <div class="classInfo">Kelas : 1</div>
+                        </div>
+                    </div>
+                    <div class="classDesc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perferendis magni voluptatum est
+                        nostrum qui consequuntur maiores, ipsa quasi atque asperiores, inventore a quis reiciendis
+                        soluta magnam. Ea, magni expedita!
+                    </div>
+                </div>
+                <div class="classListCard">
+                    <div class="classCardTop">
+                        <div class="classImage">
+                            <img src="assets/images/kids-01.jpg" alt="">
+                        </div>
+                        <div class="classDetail">
+                            <a href="">Belajar Matematika</a>
+                            <div class="Category">
+                                <div class="category-name">Kategori :</div>
+                                <div class="categoryList">
+                                    <div class="categoryItem">Menghitung</div>
+                                    <div class="categoryItem">Memahami</div>
+                                </div>
+                            </div>
+                            <div class="classInfo">Kelas : 1</div>
+                        </div>
+                    </div>
+                    <div class="classDesc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perferendis magni voluptatum est
+                        nostrum qui consequuntur maiores, ipsa quasi atque asperiores, inventore a quis reiciendis
+                        soluta magnam. Ea, magni expedita!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Ajari Team &copy; 2022
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="script/wrapper.js"></script>
+</body>
+
+</html>
