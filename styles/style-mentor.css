@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+header {
+    position: fixed;
+    background-color: #2f2f2f;
+    width: 100%;
+    padding: 17px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.1s ease-out;
+    z-index: 1;
+}
+
+.bars-menu {
+    font-size: 24px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
+.logo-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo-name i {
+    font-size: 24px;
+    padding-right: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-name a {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+nav {
+    color: #FFFFFF;
+    display: flex;
+    top: 0;
+    width: 75%;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline;
+    padding: 0 15px;
+    list-style-type: none;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+nav li a {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+nav ul li a i {
+    font-size: 0;
+    color: transparent;
+}
+
+
+
+.profile img{
+    width: 50px;
+}
+
+.login {
+    padding-right: 30px;
+}
+
+.login, .login a {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.login a {
+    padding-right: 5px;
+}
+
+
+/* login */
+
+form .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    margin: 7px 0 13px 0;
+    font-size: 13px;
+    color: #707070;
+    display: flex;
+    justify-content: left;
+}
+
+
+/* main */
+main {
+    min-height: 100vh;
+    transition: all 0.1s ease-out;
+}
+
+section {
+    background: #2F2F2F;
+    height: 582px;
+    width: 100%;
+    padding: 140px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 280px;
+    height: 386px;
+    rotate: -10deg;
+    border: 3px solid #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gradient {
+    background: linear-gradient(-3deg, #FFFFFF 50%, #2F2F2F 50%);
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    width: 100%;
+}
+
+/* mentor bar */
+
+.mentor-bar{
+    padding: 100px 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f2f2f;
+    padding-top: 150px;
+}
+
+.mentor-bar .right {
+    width: 45%;
+    text-align: justify;
+    padding-top: 10%;
+}
+
+.mentor-bar .right h2{
+    color: white;
+    font-weight: 600;
+}
+
+.mentor-bar .right h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.mentor-bar .left p, .mentor-bar .right p {
+    margin-top: 10px;
+    color: white;
+}
+
+.mentor-bar .left p a, .mentor-bar .right p a {
+    color: white;
+    font-weight: 600;
+}
+
+.mentor-bar .right {
+    width: 55%;
+    margin-top: -70px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.right img, .left img  {
+    float: right;
+    width: 470px;
+}
+
+/*baru*/
+.mentor-bar button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 13px 35px;
+    font-size: 18px;
+    font-weight : 500;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*language mentor */
+
+.odd-mentor,
+.even-mentor {
+    padding: 40px ;
+    background-color: #F4F4F4;
+    justify-content: center;
+    text-align: center;
+    
+}
+.odd-mentor h1,
+.even-mentor h1{
+    padding: 10px 10px;
+}
+.kelas{
+    display: flex;
+      grid-template-columns:1fr  1fr 1fr 1fr;
+      grid-row-gap: 10px;
+      grid-column-gap: 10px;
+}
+.mentor-card{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  
+    width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  /* margin-right: 5px;
+  margin-left: 5px; */
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  transition-duration: 0.5s;
+  padding: 50px 0px;
+}
+.mentor-card img{
+    width: 50px;
+    height: auto;
+}
+
+.odd-mentor p,
+.even-mentor p{
+    font-size: 13px;
+    padding: 5px 5px;
+}
+
+.odd-mentor button,
+.even-mentor button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 5px 5px;
+    
+    
+    color: #FFFFFF;
+    background: #2f2f2f;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* math mentor */
+.even-mentor {
+    padding: 40px ;
+    background-color:#FFFFFF;
+    justify-content: center;
+    text-align: center;
+    
+}
+.even-mentor .mentor-card{
+    background-color: #F4F4F4;
+}
+/* footer */
+
+footer {
+    margin-top: auto;
+    background-color: #F4F4F4;
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.1s ease-out;
+}
+.profile a{
+    display: none;
+}
