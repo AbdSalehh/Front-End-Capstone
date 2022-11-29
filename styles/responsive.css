@@ -572,6 +572,10 @@
     footer {
         padding: 10px 50px;
     }
+
+    .selectMenu ul {
+        right: 95px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -658,6 +662,10 @@
     .after-login {
         width: 20%;
     }
+
+    .selectMenu ul {
+        right: 85px;
+    }
 }
 
 @media screen and (max-width: 610px) {
@@ -721,7 +729,39 @@
 
 @media screen and (max-width: 450px) {
     .login-form {
-        padding: 120px 40px 10px 40px;
+        padding: 120px 20px 10px 20px;
+    }
+
+    header {
+        padding: 17px 20px;
+    }
+
+    .dashboard-container {
+        padding: 100px 20px;
+    }
+
+    section {
+        padding: 140px 20px;
+    }
+
+    .about-us,
+    .curriculum,
+    .gallery,
+    .mission {
+        padding: 40px 20px;
+    }
+
+    .mission {
+        margin: 70px 20px;
+        padding: 30px;
+    }
+
+    footer {
+        padding: 10px 20px;
+    }
+
+    .selectMenu ul {
+        right: 65px;
     }
 }
 
