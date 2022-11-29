@@ -1,0 +1,469 @@
+@media screen and (max-width: 1350px) {
+    .login-form {
+        padding: 120px 370px 10px 370px;
+    }
+}
+
+
+@media screen and (max-width: 1305px) {
+    
+}
+
+@media screen and (max-width: 1235px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+   
+    .left img {
+        width: 440px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1164px) {
+    nav {
+        width: 80%;
+    }
+
+    .left img {
+        width: 420px;
+    }
+
+    .mentor-card{
+        width: 90%;
+    }
+
+    .profile img{
+        width:30px
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .login-form {
+        padding: 120px 310px 10px 310px;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    header {
+        padding: 17px 70px;
+    }
+
+    nav {
+        width: 82%;
+    }
+
+    nav li {
+        padding: 0 0 0 20px;
+    }
+
+   
+    section {
+        padding: 140px 70px;
+    }
+
+    
+
+    .mentor-bar .left {
+        margin-top: 0px;
+    }
+
+    footer {
+        padding: 10px 70px;
+    }
+
+    .left img {
+        width: 400px;
+    }
+    .profile img{
+        width: 33px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .login-form {
+        padding: 120px 250px 10px 250px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    nav { 
+        top: 69px;
+        position: fixed;
+        right: -100%;
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: left;
+        align-items: flex-start;
+        transition: right 0.5s ease-out;
+    }
+
+    nav.open {
+        top: 69px;
+        bottom: 0px;
+        right: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: #2f2f2f;
+        color: #FFFFFF;
+    }
+
+    nav ul {
+        margin-top: -20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0 15px 5px;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    nav ul li a i{
+        color: #FFFFFF;
+        font-size: 13px;
+        margin-right: 8px;
+    }
+
+    .bars-menu {
+        display: block;
+        color: #FFFFFF;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: #FFFFFF;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .bars-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .bars-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .bars-menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .get-started {
+        width: 100%;
+        margin: 3px 0 30px 0;
+        padding: 15px 0;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(66, 73, 73, 0.5);
+    }
+
+    .login {
+        padding-right: 20px;
+    }
+
+    .login,
+    .login a {
+        font-size: 15px;
+    }
+
+    .login a {
+        padding-right: 5px;
+    }
+
+    .register {
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        padding: 3px 20px;
+    }
+
+    .register a {
+        color: #2F2F2F;
+        font-size: 15px;
+    }
+
+    .left img {
+        width: 380px;
+    }
+    .profile img{
+        width: 15px;
+    }
+    .profile {
+        display: block;
+        margin: 10px 0 15px 5px;
+        line-height: 30px;
+        padding-left: 21px;
+        margin-bottom: 24px;
+    }
+
+    .profile a{
+        color: #FFFFFF;
+        font-size: 15px;
+        margin-right: 8px;
+        display:inline;
+        margin-left: 8px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 911px) {
+    
+
+    .left img {
+        width: 360px;
+    }
+
+    
+    
+    .mentor-bar .left h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+   
+@media screen and (max-width: 900px) {
+    .login-form {
+        padding: 120px 210px 10px 210px;
+    }
+}
+
+@media screen and (max-width: 836px) {
+   
+    .left img {
+        width: 340px;
+    }
+
+    .mentor-bar .left p{
+        font-size: 14px;
+    }
+
+    .mentor-bar .left h1{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .mentor-card h3{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    .login-form {
+        padding: 120px 170px 10px 170px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .image {
+        width: 220px;
+        height: 326px;
+    }
+
+    .curriculum .left p, .curriculum .left .note {
+        font-size: 15px;
+    }
+
+    .left img {
+        width: 320px;
+    }
+
+    .mentor-bar .left p{
+        font-size: 13px;
+    }
+
+    .mentor-bar .left h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .mentor-card h3{
+        font-size: 16px;
+    }
+    .mentor-card p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 772px){
+
+    .mentor-bar .right h1{
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width: 759px) {
+    nav { 
+        width: 40%;
+    }
+
+    .left img {
+        width: 280px;
+    }
+
+    .mentor-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mentor-bar .right {
+        width: 100%;
+        
+    }
+
+    .mentor-bar .left {
+        display: none;
+    }
+
+    .mentor-bar .left p{
+        font-size: 15px;
+    }
+
+    .mentor-bar .left h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .kelas{
+        display: grid;
+          grid-template-columns:1fr 1fr 1fr;
+          grid-row-gap: 20px;
+          grid-column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .login-form {
+        padding: 120px 130px 10px 130px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        padding: 17px 50px;
+    }
+
+    section {
+        padding: 140px 50px;
+    }
+
+    .mentor-bar{
+        padding: 40px 50px;
+    }
+
+    .mentor-bar .right{
+        margin-top: 20px;
+    }
+
+    .mission {
+        margin: 70px 50px 70px 50px;
+        padding: 30px;
+    }
+
+    footer {
+        padding: 10px 50px;
+    }
+    .kelas{
+        display: grid;
+          grid-template-columns:1fr 1fr;
+          grid-row-gap: 20px;
+          grid-column-gap: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 650px) {
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+    }
+
+    
+    header {
+        padding: 17px 40px;
+    }
+
+    section {
+        padding: 140px 40px;
+    }
+
+    .mentor-bar,
+    .curriculum,
+    .gallery,
+    .mission {
+        padding: 40px 40px;
+    }
+
+    .mission {
+        margin: 70px 40px 70px 40px;
+        padding: 30px;
+    }
+
+    footer {
+        padding: 10px 40px;
+    }
+
+    
+
+    .left img {
+        width: 260px;
+    }
+
+    
+    .mentor-bar .left p, .gallery .left p {
+        font-size: 14px;
+    }
+
+    .mentor-bar .left h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .login-form {
+        padding: 120px 100px 10px 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 530px) {
+    .login-form {
+        padding: 120px 60px 10px 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        padding: 120px 40px 10px 40px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .image {
+        width: 200px;
+        height: 306px;
+    }
+
+    
+
+    section {
+        height: 750px;
+    }
+}
