@@ -85,7 +85,7 @@ nav ul li a i {
 
 
 .profile img{
-    width: 50px;
+    width: 25px;
 }
 
 .login {
@@ -306,4 +306,15 @@ footer {
 }
 .profile a{
     display: none;
+}
+
+/* curriculum*/
+
+.curriculum {
+    padding-top: 100px;
+}
+.curriculum-content {
+    margin: 20px 50px;
+    background-color: #d9d9d9;
+    padding: 40px 100px 100px 100px;
 }

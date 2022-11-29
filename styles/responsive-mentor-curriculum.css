@@ -36,7 +36,7 @@
     }
 
     .profile img{
-        width:45px
+        width:30px
     }
 }
 
@@ -78,7 +78,7 @@
         width: 400px;
     }
     .profile img{
-        width: 40px;
+        width: 33px;
     }
 
 }
@@ -202,6 +202,7 @@
         margin: 10px 0 15px 5px;
         line-height: 30px;
         padding-left: 21px;
+        margin-bottom: 24px;
     }
 
     .profile a{
@@ -210,6 +211,7 @@
         margin-right: 8px;
         display:inline;
         margin-left: 8px;
+        
     }
 
 
