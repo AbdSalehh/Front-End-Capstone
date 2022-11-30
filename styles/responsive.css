@@ -67,6 +67,11 @@
     .login-form {
         padding: 120px 340px 10px 340px;
     }
+
+    .timeline-section {
+        min-height: 100vh;
+        padding: 100px 90px 70px 90px;
+    }
 }
 
 @media screen and (max-width: 1164px) {
@@ -178,6 +183,11 @@
 
     .gallery .right .gallery-image:first-child {
         margin-right: 20px;
+    }
+
+    .timeline-section {
+        min-height: 100vh;
+        padding: 100px 70px 70px 70px;
     }
 }
 
@@ -576,6 +586,11 @@
     .selectMenu ul {
         right: 95px;
     }
+
+    .timeline-section {
+        min-height: 100vh;
+        padding: 100px 50px 70px 50px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -665,6 +680,11 @@
 
     .selectMenu ul {
         right: 85px;
+    }
+
+    .timeline-section {
+        min-height: 100vh;
+        padding: 100px 40px 70px 40px;
     }
 }
 
@@ -762,6 +782,11 @@
 
     .selectMenu ul {
         right: 65px;
+    }
+
+    .timeline-section {
+        min-height: 100vh;
+        padding: 100px 20px 70px 20px;
     }
 }
 
