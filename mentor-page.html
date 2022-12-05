@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/styles/style-mentor-curriculum.css">
     <link rel="stylesheet" href="/styles/responsive-mentor-curriculum.css">
+    
 
     <title>AJARI</title>
 </head>
@@ -18,26 +19,35 @@
             <i class="fa fa-book-open-reader"></i>
             <a href="">AJARI</a>
         </div>
-        <nav class="nav">
-            <ul>
-                <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
-                <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
-                <li><a href=""><i class="fa-solid fa-school"></i> Classes</a></li>
-                <li><a href=""><i class="fa-solid fa-address-card"></i> About us</a></li>
-            </ul>
-            <div class="profile">
-                <div class="account">
-                    <img src="/assets/images/user-img.png" alt="user-img" >
-                    <a>User</a>
+        <div class="after-login">
+            <nav class="nav">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
+                    <li><a href=""><i class="fa-solid fa-school"></i> Classes</a></li>
+                    <li><a href=""><i class="fa-solid fa-address-card"></i> About us</a></li>
+                </ul>
+            </nav>
+            <div class="navProfile">
+                <div class="get-started">
+                    <div class="profile">
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
+                    <div class="selectMenu">
+                        <ul>
+                            <li class="option"><a href=""><i class="fa-solid fa-chalkboard-user"></i> Dashboard</a></li>
+                            <li class="option"><a href=""><i class="fa-solid fa-sign-out"></i> Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bars-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </div>
-        </nav>
-        <div class="bars-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
         </div>
-        
     </header>
     <main>
         
@@ -167,6 +177,7 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/wrapper.js"></script>
     <script>
         AOS.init({
             once: true
