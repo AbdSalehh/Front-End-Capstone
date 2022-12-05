@@ -44,6 +44,9 @@
     .login-form {
         padding: 120px 310px 10px 310px;
     }
+    .after-login nav ul {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1068px) {
@@ -160,7 +163,6 @@
 
     .get-started {
         width: 100%;
-        margin: 3px 0 30px 0;
         padding: 15px 0;
         justify-content: center;
         align-items: center;
@@ -214,7 +216,16 @@
         
     }
 
+    .selectMenu ul {
+        right: 115px;
+    }
+    .after-login nav ul {
+        margin-top: 5px;
+    }
 
+    .after-login {
+        justify-content: flex-end;
+    }
 }
 
 @media screen and (max-width: 911px) {
@@ -379,7 +390,9 @@
           grid-column-gap: 10px;
     }
 
-    
+    .selectMenu ul {
+        right: 95px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -431,6 +444,13 @@
         font-size: 28px;
         font-weight: 600;
     }
+
+    .selectMenu ul {
+        right: 85px;
+    }
+    .after-login {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 610px) {
@@ -447,11 +467,17 @@
     .login-form {
         padding: 120px 60px 10px 60px;
     }
+    .after-login {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .login-form {
         padding: 120px 40px 10px 40px;
+    }
+    .selectMenu ul {
+        right: 65px;
     }
 }
 
