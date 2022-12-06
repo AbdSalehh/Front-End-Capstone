@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/curriculum.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/classes.css">
+    <link rel="stylesheet" href="styles/responsive-classes.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <title>AJARI</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+           <i class="fa fa-book-open-reader"></i>
+            <a href="">AJARI</a>
+        </div>
+        <div class="after-login">
+            <nav class="nav">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
+                    <li><a href=""><i class="fa-solid fa-school"></i> Classes</a></li>
+                    <li><a href=""><i class="fa-solid fa-address-card"></i> About us</a></li>
+                </ul>
+            </nav>
+            <div class="navProfile">
+                <div class="get-started">
+                    <div class="profile">
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
+                    <div class="selectMenu">
+                        <ul>
+                            <li class="option"><a href=""><i class="fa-solid fa-chalkboard-user"></i> Dashboard</a></li>
+                            <li class="option"><a href=""><i class="fa-solid fa-sign-out"></i> Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bars-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+   <main>
+    <div class="classess">
+        <div class="class-container">
+            
+            <div class="module-list">
+                <div class="module">
+                    <button id="list-logo"><i class="list-logo fa-solid fa-list"></i></button>
+                    <p id="list-title" class="list-title">MODULE LIST</p>
+                </div>
+                
+                <ul id="list-item" class="list-item">
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perkenalan bahasa indonesia</a></li>
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perbedaan bahasa baku dengan bahasa gaul</a></li>
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">bahasa latin</a></li>
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">mendalami bahasa baku</a></li>
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perkenalan bahasa indonesia</a></li>
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perbedaan bahasa baku dengan bahasa gaul</a></li>
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">bahasa latin</a></li>
+                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">mendalami bahasa baku</a></li>
+                </ul>
+            </div>
+            <div class="class-main">
+                <h1 class="class-name">kelas bahasa indonesia</h1>
+                <p class="class-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus arcu felis bibendum ut tristique et egestas quis. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Mattis nunc sed blandit libero volutpat sed cras. Integer quis auctor elit sed vulputate mi sit amet. Lobortis scelerisque fermentum dui faucibus in ornare quam. Viverra nam libero justo laoreet. Ut diam quam nulla porttitor massa id neque. Praesent tristique magna sit amet. Sed vulputate odio ut enim blandit volutpat. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Dignissim diam quis enim lobortis. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Netus et malesuada fames ac turpis. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Enim diam vulputate ut pharetra sit amet aliquam id diam.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+   </main>
+    <footer>
+        Ajari Team &copy; 2022
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="script/wrapper.js"></script>
+    <script>
+$(document).ready(function(){
+  $("#list-logo").click(function(){
+    $("#list-title").hide();
+  });
+  $("#list-logo").click(function(){
+    $("#list-title").show();
+  });
+});
+</script>
+</body>
+
+</html>
