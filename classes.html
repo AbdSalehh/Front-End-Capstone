@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/classes.css">
     <link rel="stylesheet" href="styles/responsive-classes.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
     <title>AJARI</title>
 </head>
@@ -57,25 +57,28 @@
     </header>
    <main>
     <div class="classess">
-        <div class="class-container">
-            
-            <div class="module-list">
-                <div class="module">
-                    <button id="list-logo"><i class="list-logo fa-solid fa-list"></i></button>
-                    <p id="list-title" class="list-title">MODULE LIST</p>
+        <div class="module-menu">
+        <div id="list-logo"><i class="list-logo fa-solid fa-list"></i>
                 </div>
-                
+        
+            <div id="module-list" class="module-list">               
+                <span id="list-title" class="list-title">MODULE LIST</span>
                 <ul id="list-item" class="list-item">
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perkenalan bahasa indonesia</a></li>
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perbedaan bahasa baku dengan bahasa gaul</a></li>
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">bahasa latin</a></li>
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">mendalami bahasa baku</a></li>
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perkenalan bahasa indonesia</a></li>
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">perbedaan bahasa baku dengan bahasa gaul</a></li>
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">bahasa latin</a></li>
-                    <li class="item"><i class="arrow fa-sharp fa-solid fa-arrow-right"></i><a href="">mendalami bahasa baku</a></li>
+                    
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perkenalan bahasa indonesia</a></li>
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perbedaan bahasa baku dengan bahasa gaul</a></li>
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>bahasa latin</a></li>
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>mendalami bahasa baku</a></li>
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perkenalan bahasa indonesia</a></li>
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perbedaan bahasa baku dengan bahasa gaul</a></li>
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>bahasa latin</a></li>
+                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>mendalami bahasa baku</a></li>
                 </ul>
             </div>
+        </div>
+        
+        <div class="class-container">
+            
             <div class="class-main">
                 <h1 class="class-name">kelas bahasa indonesia</h1>
                 <p class="class-content">
@@ -93,15 +96,12 @@
     <script src="script/script.js"></script>
     <script src="script/wrapper.js"></script>
     <script>
-$(document).ready(function(){
-  $("#list-logo").click(function(){
-    $("#list-title").hide();
-  });
-  $("#list-logo").click(function(){
-    $("#list-title").show();
-  });
-});
-</script>
+        $(document).ready(function(){
+             $("#list-logo").click(function(){
+             $(".module-list").animate({width: 'toggle'});
+             });
+        });
+        </script>
 </body>
 
 </html>
