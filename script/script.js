@@ -7,6 +7,9 @@ const showPw = document.querySelector('.password>button');
 const showConfirmPw = document.querySelector('.password>#confirm');
 const profile = document.querySelector('.profile');
 const menu = document.querySelector('.selectMenu');
+const listLogo = document.querySelector('.list-logo ');
+const moduleList = document.querySelector('.module-list');
+
 
 barsMenu.addEventListener('click', (event) => {
     event.stopPropagation();
@@ -42,3 +45,13 @@ showConfirmPw.addEventListener('click', () => {
         confirmPw.type = "password";
     }
 });
+
+listLogo.addEventListener("click", (event) => {
+    moduleList.classList.toggle("open");
+    event.stopPropagation();
+  });
+  
+  listLogo.addEventListener("click", (event) => {
+     moduleList.classList.remove("open");
+    event.stopPropagation();
+  });
