@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,100 +7,99 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/curriculum.css">
-    <link rel="stylesheet" href="styles/dashboard.css">
-    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/classes.css">
-    <link rel="stylesheet" href="styles/responsive-classes.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
-    <title>AJARI</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <div class="logo-name">
-           <i class="fa fa-book-open-reader"></i>
-            <a href="">AJARI</a>
+    <main>
+        <div class="head">
+            <a href="" class="back">
+                <div class="back-icon">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="back-title">Belajar Membaca</div>
+            </a>
+            <div class="hamburger-menu" tabindex="0">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
-        <div class="after-login">
-            <nav class="nav">
-                <ul>
-                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
-                    <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
-                    <li><a href=""><i class="fa-solid fa-school"></i> Classes</a></li>
-                    <li><a href=""><i class="fa-solid fa-address-card"></i> About us</a></li>
-                </ul>
-            </nav>
-            <div class="navProfile">
-                <div class="get-started">
-                    <div class="profile">
-                        <i class="fa-solid fa-chevron-down"></i>
-                        <i class="fa-solid fa-circle-user"></i>
+        <div class="url">
+            <div class="url-link">academies / Kelas 1 / <span><a href="">Belajar Membaca</a></span> / Huruf Vokal</div>
+        </div>
+        <div class="courseCard">
+            <div class="responsive-toggle" tabindex="0">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-title">
+                    <h2>Daftar Modul</h2>
+                    <i class="fa-solid fa-circle-chevron-left toggle" tabindex="0"></i>
+                </div>
+                <div class="course-list">
+                    <a class="cList" href="">
+                        <i class="fa fa-map-pin"></i>
+                        <div class="courseName">Belajar Huruf Vokal</div>
+                    </a>
+                    <a class="cList" href="">
+                        <i class="fa fa-map-pin"></i>
+                        <div class="courseName">Belajar Huruf Konsonan</div>
+                    </a>
+                    <a class="cList" href="">
+                        <i class="fa fa-map-pin"></i>
+                        <div class="courseName">Belajar Bahasa Baku</div>
+                    </a>
+                    <a class="cList" href="">
+                        <i class="fa fa-map-pin"></i>
+                        <div class="courseName">Belajar Mengeja</div>
+                    </a>
+                </div>
+            </div>
+            <div class="course">
+                <h1>Pendahuluan</h1>
+                <div class="course-content">
+                    <div class="course-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tGiC70EjlfY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="selectMenu">
-                        <ul>
-                            <li class="option"><a href=""><i class="fa-solid fa-chalkboard-user"></i> Dashboard</a></li>
-                            <li class="option"><a href=""><i class="fa-solid fa-sign-out"></i> Logout</a></li>
-                        </ul>
-                    </div>
                 </div>
-                <div class="bars-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div class="course-text" tabindex="0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </div>
+                <div class="course-text" tabindex="0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </div>
+                <div class="course-button">
+                    <button class="previous">Sebelumnya</button>
+                    <button class="next">Selanjutnya</button>
                 </div>
             </div>
         </div>
-    </header>
-   <main>
-    <div class="classess">
-        <div class="module-menu">
-        <div id="list-logo"><i class="list-logo fa-solid fa-list"></i>
-                </div>
-        
-            <div id="module-list" class="module-list">               
-                <span id="list-title" class="list-title">MODULE LIST</span>
-                <ul id="list-item" class="list-item">
-                    
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perkenalan bahasa indonesia</a></li>
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perbedaan bahasa baku dengan bahasa gaul</a></li>
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>bahasa latin</a></li>
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>mendalami bahasa baku</a></li>
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perkenalan bahasa indonesia</a></li>
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>perbedaan bahasa baku dengan bahasa gaul</a></li>
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>bahasa latin</a></li>
-                    <li class="item"><a href=""><i class="arrow fa-sharp fa-solid fa-arrow-right"></i>mendalami bahasa baku</a></li>
-                </ul>
+    </main>
+    <div class="popup-box">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h3></h3>
+                <span class="popup-close-icon" tabindex="0">&times;</span>
             </div>
-        </div>
-        
-        <div class="class-container">
-            
-            <div class="class-main">
-                <h1 class="class-name">kelas bahasa indonesia</h1>
-                <p class="class-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus arcu felis bibendum ut tristique et egestas quis. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Mattis nunc sed blandit libero volutpat sed cras. Integer quis auctor elit sed vulputate mi sit amet. Lobortis scelerisque fermentum dui faucibus in ornare quam. Viverra nam libero justo laoreet. Ut diam quam nulla porttitor massa id neque. Praesent tristique magna sit amet. Sed vulputate odio ut enim blandit volutpat. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Dignissim diam quis enim lobortis. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Netus et malesuada fames ac turpis. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Enim diam vulputate ut pharetra sit amet aliquam id diam.
-                </p>
+            <div class="popup-body">
+
             </div>
-            
+            <div class="popup-footer">
+                <button class="btn popup-close-btn" tabindex="0">Close</button>
+            </div>
         </div>
     </div>
-   </main>
-    <footer>
-        Ajari Team &copy; 2022
-    </footer>
-
-    <script src="script/script.js"></script>
-    <script src="script/wrapper.js"></script>
-    <script>
-        $(document).ready(function(){
-             $("#list-logo").click(function(){
-             $(".module-list").animate({width: 'toggle'});
-             });
-        });
-        </script>
+    <script src="script/classes.js"></script>
 </body>
-
 </html>
