@@ -10,7 +10,6 @@ const menu = document.querySelector('.selectMenu');
 const listLogo = document.querySelector('.list-logo ');
 const moduleList = document.querySelector('.module-list');
 
-
 barsMenu.addEventListener('click', (event) => {
     event.stopPropagation();
 
@@ -30,28 +29,18 @@ body.addEventListener('click', (event) => {
     barsMenu.classList.remove('active');
 });
 
-showPw.addEventListener('click', () => {
-    if (pw.type === "password") {
-        pw.type = "text";
-    } else {
-        pw.type = "password";
-    }
-});
+// showPw.addEventListener('click', () => {
+//     if (pw.type === "password") {
+//         pw.type = "text";
+//     } else {
+//         pw.type = "password";
+//     }
+// });
 
-showConfirmPw.addEventListener('click', () => {
-    if (confirmPw.type === "password") {
-        confirmPw.type = "text";
-    } else {
-        confirmPw.type = "password";
-    }
-});
-
-listLogo.addEventListener("click", (event) => {
-    moduleList.classList.toggle("open");
-    event.stopPropagation();
-  });
-  
-  listLogo.addEventListener("click", (event) => {
-     moduleList.classList.remove("open");
-    event.stopPropagation();
-  });
+// showConfirmPw.addEventListener('click', () => {
+//     if (confirmPw.type === "password") {
+//         confirmPw.type = "text";
+//     } else {
+//         confirmPw.type = "password";
+//     }
+// });

@@ -12,6 +12,23 @@ body {
     transition: all 0.3s ease;
 }
 
+.skip-to-main {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #2F2F2F;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    z-index: 200;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.skip-to-main:focus {
+    top: 10px;
+    border: 4px solid #42B3FF;
+}
+
 header {
     position: fixed;
     background-color: #2F2F2F;
@@ -66,7 +83,19 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row-reverse;
     width: 80%;
+}
+
+.after-login button, .before-login button {
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.after-login button:focus, .before-login button:focus {
+    border: 2px solid #FFFFFF;
 }
 
 .after-login nav {
@@ -110,6 +139,7 @@ nav ul li a i {
 .before-login nav {
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .get-started {
@@ -329,6 +359,10 @@ input[type=password]:focus {
 main {
     min-height: 100vh;
     transition: all 0.1s ease-out;
+}
+
+main:focus {
+    outline: none;
 }
 
 section {
@@ -743,6 +777,10 @@ footer {
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 5px;
+}
+
+.selectMenu ul li form button:focus {
+    border: 2px solid #F95862;
 }
 
 .selectMenu ul li:hover {

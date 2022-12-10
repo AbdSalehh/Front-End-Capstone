@@ -82,10 +82,19 @@
 }
 
 .sidebar {
+    visibility: hidden;
     width: 25%;
     border-right: 1px solid #A9A9A9;
     background-color: rgb(169, 169, 169, 0.05);
     transition: all 0.2s ease-in-out;
+}
+
+.sidebar.open {
+    visibility: visible;
+}
+
+.courseCard.open .responsive-toggle {
+    visibility: hidden;
 }
 
 .sidebar-title {
@@ -101,6 +110,20 @@
     font-size: 25px;
     color: #2F2F2F;
     cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.sidebar-title .toggle:focus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+    border: 2px solid #2F2F2F;
+    border-radius: 50%;
 }
 
 .cList {
@@ -151,12 +174,21 @@
 }
 
 .course-text {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    background-color: transparent;
     text-align: justify;
     margin-top: 20px;
     font-size: 17px;
     font-weight: 500;
     color: #2f2f2f;
     cursor: pointer;
+}
+
+.course-text:focus {
+    border: 2px solid #2F2F2F;
+    border-radius: 5px;
 }
 
 .course-button {
@@ -187,6 +219,7 @@
 }
 
 .responsive-toggle.active {
+    visibility: visible;
     left: 0;
 }
 
@@ -208,6 +241,10 @@
     background-color: #FFFFFF;
     width: 100%;
     z-index: 3;
+}
+
+.responsive-toggle:focus {
+    border: 2px solid #42B3FF;
 }
 
 /* modal popup */

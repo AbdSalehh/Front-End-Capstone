@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="dicoding:email" content="111202012740@mhs.dinus.ac.id">
+
+    <meta name="description" content="AJARI : Platform Pembelajaran Anak Disabilitas Sensorik">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="styles/style.css">
@@ -15,30 +18,23 @@
 </head>
 
 <body>
+    <a class="skip-to-main" tabindex="0" href="#mainContent">Skip to main content</a>
     <header>
         <div class="logo-name">
             <i class="fa fa-book-open-reader"></i>
             <a href="">AJARI</a>
         </div>
         <div class="after-login">
-            <nav class="nav">
-                <ul>
-                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
-                    <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
-                    <li><a href=""><i class="fa-solid fa-school"></i> Classes</a></li>
-                    <li><a href=""><i class="fa-solid fa-address-card"></i> About us</a></li>
-                </ul>
-            </nav>
             <div class="navProfile">
                 <div class="get-started">
-                    <div class="profile">
+                    <button class="profile" tabindex="0">
                         <i class="fa-solid fa-chevron-down"></i>
                         <i class="fa-solid fa-circle-user"></i>
-                    </div>
+                    </button>
                     <div class="selectMenu">
                         <ul>
                             <li class="option"><a href=""><i class="fa-solid fa-chalkboard-user"></i> Dashboard</a></li>
-                            <li class="option"> 
+                            <li class="option">
                                 <form action="">
                                     <button>
                                         <i class="fa-solid fa-sign-out"></i> Logout
@@ -48,21 +44,29 @@
                         </ul>
                     </div>
                 </div>
-                <div class="bars-menu">
+                <button class="bars-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
-                </div>
+                </button>
             </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
+                    <li><a href=""><i class="fa-solid fa-school"></i> Classes</a></li>
+                    <li><a href=""><i class="fa-solid fa-address-card"></i> About us</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <main>
+    <main tabindex="0" id="mainContent">
         <div class="dashboard-container">
             <div class="widget">
                 <h1>Hello, Nadya Ayunda!</h1>
                 <p>Selamat belajar, kami menyediakan beberapa kelas dan materi pembelajaran yang bisa anda pilih dibawah
                     ini.</p>
-                <button>
+                <button tabindex="0">
                     Mulai Belajar
                     <div class="widget-icon">
                         <i class="fa-solid fa-arrow-right"></i>

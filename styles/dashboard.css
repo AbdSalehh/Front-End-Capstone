@@ -18,6 +18,7 @@
 }
 
 .widget button {
+  cursor: pointer;
   border: none;
   outline: none;
   display: flex;
@@ -29,6 +30,10 @@
   font-size: 15px;
   font-weight: 600;
   background-color: #FFFFFF;
+}
+
+.widget button:focus {
+  border: 3px solid #42B3FF;
 }
 
 .widget-icon {
