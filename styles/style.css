@@ -721,13 +721,28 @@ footer {
     background-color: #F8F8F8;
     right: 90px;
     width: 250px;
-    height: 100px;
     border-radius: 5px;
     border: 1px solid #D1D1D1;
 }
 
 .selectMenu ul li {
     padding: 10px 15px;
+    width: 100%;
+}
+
+.selectMenu ul li form button {
+    font-family: 'Poppins', sans-serif;
+    color: #F95862;
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 5px;
 }
 
 .selectMenu ul li:hover {
@@ -735,26 +750,22 @@ footer {
 }
 
 .selectMenu ul li a {
+    display: inline-block;
     color: #2F2F2F;
     font-weight: 600;
     width: 100%;
 }
 
-.selectMenu ul li a i {
+.selectMenu ul li a i,
+.selectMenu ul li form button i {
     color: #2F2F2F;
     font-size: 17px;
     margin-right: 10px;
 }
 
-.selectMenu ul li:last-child {
-    padding: 7px 0;
-    font-size: 17px;
-    padding-left: 17px;
-}
-
-.selectMenu ul li:last-child a,
-.selectMenu ul li:last-child a i {
+.selectMenu ul li form button i {
     color: #F95862;
+    margin-right: 17px;
 }
 
 .selectMenu.active {
