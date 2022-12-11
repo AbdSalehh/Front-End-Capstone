@@ -58,36 +58,19 @@
   transition: all 1s ease;
   color: #2F2F2F;
   overflow-x: auto;
-
 }
 
-.class::-webkit-scrollbar {
-  display: none;
-}
-
-.class input {
-  display: none;
-}
-
-.class label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  user-select: none;
+.class a {
   font-size: 17px;
   font-weight: 600;
-  padding: 10px 40px;
+  color: #2F2F2F;
+  padding: 5px 20px;
 }
 
-.class input:checked+label,
-.class label:hover {
+.class a:hover {
   color: #000;
-}
-
-.class input:checked+label {
-  border-radius: 8px;
   background-color: rgb(242, 243, 244, 0.9);
+  border-radius: 5px;
 }
 
 .classList {
