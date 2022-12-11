@@ -75,8 +75,8 @@
 
 .classList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .classListCard {
@@ -140,4 +140,9 @@
   font-size: 15px;
   color: #2F2F2F;
   text-align: justify;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }

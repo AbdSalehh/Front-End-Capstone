@@ -29,18 +29,18 @@ body.addEventListener('click', (event) => {
     barsMenu.classList.remove('active');
 });
 
-// showPw.addEventListener('click', () => {
-//     if (pw.type === "password") {
-//         pw.type = "text";
-//     } else {
-//         pw.type = "password";
-//     }
-// });
+showPw.addEventListener('click', () => {
+    if (pw.type === "password") {
+        pw.type = "text";
+    } else {
+        pw.type = "password";
+    }
+});
 
-// showConfirmPw.addEventListener('click', () => {
-//     if (confirmPw.type === "password") {
-//         confirmPw.type = "text";
-//     } else {
-//         confirmPw.type = "password";
-//     }
-// });
+showConfirmPw.addEventListener('click', () => {
+    if (confirmPw.type === "password") {
+        confirmPw.type = "text";
+    } else {
+        confirmPw.type = "password";
+    }
+});

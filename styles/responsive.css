@@ -125,6 +125,10 @@
     .after-login nav ul {
         width: 80%;
     }
+
+    .classList {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 1068px) {
@@ -728,10 +732,6 @@
         width: 100%;
         margin-bottom: 20px;
         padding-right: 0;
-    }
-    
-    .classList {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .classCardTop {
