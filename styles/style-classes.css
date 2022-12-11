@@ -88,8 +88,6 @@ img {
   color: black;
 }
 
-
-
 .trust-title {
   grid-column-start: 1;
   grid-column-end: 4;
@@ -101,7 +99,7 @@ h1 {
   text-align: center;
 }
 
-button {
+.course-detail-item button {
   font-family: 'Poppins', sans-serif;
   border: none;
   height: 60px;
