@@ -23,21 +23,33 @@
             <i class="fa fa-book-open-reader"></i>
             <a href="">AJARI</a>
         </div>
-        <div class="before-login">
-            <button class="bars-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <nav class="nav">
+        <div class="after-login">
+            <div class="navProfile">
                 <div class="get-started">
-                    <div class="login">
-                        <a href="signIn.html">Sign in &nbsp; <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
-                    </div>
-                    <div class="register">
-                        <a href="signUp.html">Sign up</a>
+                    <button class="profile" tabindex="0">
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <i class="fa-solid fa-circle-user"></i>
+                    </button>
+                    <div class="selectMenu">
+                        <ul>
+                            <li class="option"><a href=""><i class="fa-solid fa-chalkboard-user"></i> Dashboard</a></li>
+                            <li class="option">
+                                <form action="">
+                                    <button>
+                                        <i class="fa-solid fa-sign-out"></i> Logout
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+                <button class="bars-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <nav class="nav">
                 <ul>
                     <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
                     <li><a href=""><i class="fa-solid fa-graduation-cap"></i> Curriculum</a></li>
@@ -73,11 +85,11 @@
                 <div class="left" data-aos="fade-right" data-aos-duration="1000">
                     <h2>About us</h2>
                     <h1>Ajari</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Ut enim
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit.</p>
+                    <p>AJARI merupakan platform pembelajaran untuk anak disabilitas yang dirancang khusus untuk memfasilitasi
+                        anak-anak disabilitas sensorik. AJARI memiliki kurikulum yang telah disesuaikan dengan kebutuhan
+                        masing-masing siswa, sesuai dengan kebutuhan yang mereka butuhkan. AJARI ini juga memiliki fitur kelas yang dapat digunakan
+                        untuk membantu mereka dalam memahami serta menguasai materi yang dipelajari.</p>
+                    </p>
                     <p><a href="">Read More</a></p>
                 </div>
                 <div class="right" data-aos="fade-in" data-aos-delay="400" data-aos-duration="1000">
@@ -94,9 +106,9 @@
                     </div>
                     <div class="card">
                         <div class="card-icon second">
-                            <i class="fa-solid fa-language"></i>
+                            <i class="fa-solid fa-square-pen"></i>
                         </div>
-                        <div class="card-desc">Language Arts</div>
+                        <div class="card-desc">Writing</div>
                     </div>
                     <div class="card">
                         <div class="card-icon third">
@@ -114,23 +126,22 @@
                 <div class="right" data-aos="fade-left data-aos-duration="1000">
                     <h2>Curriculum</h2>
                     <h1>Our Curriculum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-                    <div class="note">Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</div>
-                    <button>Know Us</button>
+                    <p>Kami menfasilitasi anak-anak disabiltas sensorik dengan menyediakan kurikulum pembelajaran yang mereka
+                        butuhkan. Kurikulum yang kami sediakan mengacu pada kurikulum 2013 dengan menyeseuaikan kebutuhan 
+                        masing-masing siswa. </p>
+                    </p>
+                    <div class="note">AJARI menggunakan acuan pada kurikulum 2013 dengan sedikit memodifikasi materi pembelajaran sesuai dengan kebutuhan siswa.</div>
+                    <a href="">Know Us</a>
                 </div>
             </div>
             <div class="gallery">
                 <div class="left" data-aos="fade-right" data-aos-duration="1000">
                     <h2>Gallery</h2>
                     <h1>Our Photo Gallery</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                    <p>Cuplikan foto dari proses pembelajaran dapat dilihat melalui gambar yang sudah tertera. Selama proses pembelajaran, siswa akan didampingi oleh mentor
+                        agar proses pembelajaran bisa dilakukan secara maksimal melalui classroom.
+                    </p>
+                    <p>Dengan hal tersebut dilakukan agar siswa bisa mengikuti proses pembelajaran tanpa mengalami kesulitan sedikitpun.</p>
                 </div>
                 <div class="right">
                     <div class="gallery-image" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
@@ -168,8 +179,8 @@
                     <i class="fa fa-lightbulb"></i>
                     <h2>Our Mission</h2>
                     <div class="mission-desc">
-                        Our mission is to providing outstanding care to children while developing each childs personal,
-                        social, academic, and creative needs.
+                        Misi kami yaitu untuk menciptakan generasi muda yang mempunyai kemampuan berpikir kritis, inovatif dan kreatif. 
+                        Hal tersebut kami lakukan dengan menyediakan kurikulum yang menyesuaikan kebutuhan siswa.
                     </div>
                 </div>
                 <div class="mission-card" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">

@@ -594,16 +594,13 @@ section {
     font-weight: 600;
 }
 
-.curriculum .right button {
-    font-family: 'Poppins', sans-serif;
-    border: none;
+.curriculum .right a {
     padding: 13px 35px;
     font-size: 18px;
     font-weight : 500;
     color: #FFFFFF;
     background: #2F2F2F;
     border-radius: 4px;
-    cursor: pointer;
 }
 
 /* Gallery */
