@@ -72,7 +72,7 @@ Step 3
 
 </h3>
 
-Setelah menekan button `Sign Up`, website akan otomatis mengarahkan pengguna pada laman `Sign In`. Pada laman ini, silahkan inputkan `gmail` dan juga `password` seperti kotak nomor 1 dan 2 yang sudah didaftarkan pada laman `Sign Up` sebelumnya.
+Setelah menekan button `Sign Up`, website akan otomatis mengarahkan pengguna pada laman `Sign In`. Pada laman ini, silahkan inputkan `gmail` dan `password` yang sudah didaftarkan pada laman `Sign Up` sebelumnya pada kotak nomor 1, lalu tekan button `Sign In` pada kotak nomor 2.
 
 <div align="center">
 <img src="https://github.com/AbdSalehh/AbdSalehh/blob/main/assets/images/AJARI/5.jpg" width="600" height="auto">
