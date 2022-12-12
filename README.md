@@ -1,7 +1,7 @@
 <div id="top">
 <h1><a href="https://ajaricapstone.com/">AJARI : plAtform pembelaJaran Anak disabilitas sensoRIk.</a></h1>
 
-[![Github? AJARI!](https://badgen.net/badge/Github/AJARI?color=63BB15&icon=github)](https://ajaricapstone.com/) 
+[![Github? AJARI!](https://badgen.net/badge/Github/AJARI?color=63BB15&icon=github)](https://ajaricapstone.com/) ![JS](https://img.shields.io/badge/Javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=23F7DF1E&color=34495E) 	![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=1589BB&color=626262) ![Windows OS](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white&color=)
 
 <div align="center">
 <img src="https://github.com/AbdSalehh/AbdSalehh/blob/main/assets/images/AJARI/1.png" width="600" height="auto">
@@ -101,7 +101,7 @@ Selanjutnya, website akan mengarahkan pengguna pada detail materi berdasarkan ma
 Maka website akan menampilkan modal popup seperti pada gambar dibawah ini :
 
 <div align="center">
-<img src="https://github.com/AbdSalehh/AbdSalehh/blob/main/assets/images/AJARI/8.jpg" width="600" height="auto">
+<img src="https://github.com/AbdSalehh/AbdSalehh/blob/main/assets/images/AJARI/8.png" width="600" height="auto">
 </div>
 
 <br>
