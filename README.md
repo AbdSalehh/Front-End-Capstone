@@ -101,7 +101,7 @@ Selanjutnya, website akan mengarahkan pengguna pada detail materi berdasarkan ma
 Maka website akan menampilkan modal popup seperti pada gambar dibawah ini :
 
 <div align="center">
-<img src="https://github.com/AbdSalehh/AbdSalehh/blob/main/assets/images/AJARI/7.jpg" width="600" height="auto">
+<img src="https://github.com/AbdSalehh/AbdSalehh/blob/main/assets/images/AJARI/8.jpg" width="600" height="auto">
 </div>
 
 <br>
